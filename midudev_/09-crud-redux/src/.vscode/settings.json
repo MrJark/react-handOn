@@ -1,4 +1,5 @@
 {
+    
     "editor.formatOnSave": true,
     "editor.codeActionsOnSove": {
         "source.fixAll.rome": true,
