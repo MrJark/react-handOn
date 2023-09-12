@@ -28,6 +28,9 @@ Esta parte es para desarrollar un **CRUD** utilizando React Redux Toolkit, Rome 
 
   Usa además el plugin de rome para el proyecto si ya tienes un eslint configurado debes habilitar la extensión de Rome y deshabilitas la de eslint y la de prettier ( en este workspace )
 
+- La colección de componentes voy a usaar es [tremor](https://www.tremor.so) para usar dashboards: **pnpm add @tremor/react -E**
+
+- Para los íconos voy a usar [heroicons](https://heroicons.com)
 
 ## Comentarios
 
