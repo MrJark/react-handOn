@@ -1,6 +1,6 @@
 # Proyecto de REACT
 
-En este proyecto, voy a estar practicando con React a través del repo de Midudev. Además haré projectos propios o pruebas técnicas que me vaya encontrando por internet para practicar.
+En este proyecto, voy a estar practicando con React a través del repo y las clases de Midudev para aprender React. Además haré projectos propios o pruebas técnicas que me vaya encontrando por internet para practicar.
 
 Aquí te dejo el Repo por si quieres verlo: [Repo de Midudev](https://github.com/midudev/aprendiendo-react)
 
