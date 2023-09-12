@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# CRUD con React Redux Toolkit, Rome Tools y Tremor
 
 Inicio el repo con **pnpm**.
 
