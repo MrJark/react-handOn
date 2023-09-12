@@ -1,0 +1,17 @@
+
+body {
+    margin: 0 auto;
+    background-color: #222;
+    color: #f5f5f5;
+    display: grid;
+    place-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+/* haces la separación a nivel de contenedor y no de componente */
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
