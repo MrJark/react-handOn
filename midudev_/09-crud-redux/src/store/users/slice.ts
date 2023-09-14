@@ -63,6 +63,11 @@ export const usersSlice = createSlice({
             const id = action.payload;
             return state.filter( (user) => user.id !== id)
         },
+        addNewUser: ( state, action: PayloadAction<User> ) => {
+            const id = crypto.randomUUID(); // creas el id del user de froma random ya que es lo único que no tienes. En el default está por default pero en los nuevos se tienen que crear de cero
+        
+            return[ ...state, { id, ...action.payload }]
+        }
     }
 })
 
@@ -70,4 +75,4 @@ export default usersSlice.reducer;
 
 
 // lo mejor que puedes hacer cuando tienes un reducer es exportar la acción ya que redux-toolkit te permite hacerlo sin usar el string
-export const { deleteUserById } = usersSlice.actions;
+export const { deleteUserById, addNewUser } = usersSlice.actions;

@@ -13,8 +13,8 @@ import {
 } from "@tremor/react";
 
 // import { useSelector } from 'react-redux'
-import { useAppDispatch, useAppSelector } from "../hooks/useStore";  
-import { UserId, deleteUserById } from "../store/users/slice";
+import { useAppSelector } from "../hooks/useStore";  
+// import { UserId, deleteUserById } from "../store/users/slice";
 import { useUserActions } from "../hooks/useUserActions";
 
 //  // Esto lo puedo eliminar porque ya lo he creado en la parye del slice

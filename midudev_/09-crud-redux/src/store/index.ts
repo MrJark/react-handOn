@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';;;;
 import usersReducer from './users/slice'
 
 
-const persistanceLocalStorageMiddleware = (store) => (next) => (action) => {
+const persistanceLocalStorageMiddleware = (store:any) => (next:any) => (action:any) => {
     // console.log(store.getState());
     // console.log(action);
     next(action)

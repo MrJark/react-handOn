@@ -1,4 +1,4 @@
-import { UserId, deleteUserById } from "../store/users/slice";
+import { UserId, deleteUserById, addNewUser, User } from "../store/users/slice";
 import { useAppDispatch } from "./useStore";
 
 export const useUserActions = () => {
@@ -7,8 +7,12 @@ export const useUserActions = () => {
     const removeUser = (id: UserId) => {
       dispatch(deleteUserById(id))
     }
+    const addUser = ({ name, email, github }: User) => { // las dependencias que le hace falta para crear el User
+        dispatch( addNewUser({name, email, github}))
+    }
 
     return {
-        removeUser
+        removeUser,
+        addUser
     }
 }
