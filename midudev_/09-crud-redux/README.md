@@ -44,4 +44,8 @@ Esta parte es para desarrollar un **CRUD** utilizando React Redux Toolkit, Rome 
 
 ## Comentarios
 
-- 
+- Echar un ojo a [Screaming](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html) o [Screaming](https://levelup.gitconnected.com/what-is-screaming-architecture-f7c327af9bb2) para la arquitectura de carpetas
+
+- Un middleware es 'algo' que se ejecuta 'en medio' de algo. En un ejemplo, cada vez que hagas un dispatch te permite ver que ha sido y cambiar según que funcionalidad ( esto evita usar el LocalStorage). Son 3 funciones en una que se van ejecutando una tras otra.
+
+  ES una función que recibe una store que devuelve una función que recibe un next que devuelve una función que recibe un action que devuelve una función
